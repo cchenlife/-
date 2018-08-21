@@ -6,6 +6,8 @@
   likeword：正则表达式匹配，单词不包含：连续相等的字母、形如“xyxy”的子序列、全部为大写
   luckybag：dfs，满足所有数字之和大于数字之积的子数组个数
   mixcolor：数学问题+动态规划+贪心，颜色混合（A OR B），计算需要购买的颜料种类
+  phonenumber：数学规律，输出字符串对应的最小电话号码
+  plalindrome：数学问题，找变为回文序列的最小转换次数
   
   dp/ 
     chrous：相邻两学生为止编号差不超过d，k个学生能力值乘积最大
@@ -17,3 +19,7 @@
   magiccoin：数学规律，最后一步为2*x+1还是2*x+2
   stringchip：输出格式，四舍五入+小数点位数
 
+3.HuaWei
+  bag：dfs，有容量的书包能装零食的最大价值
+  charconvert：大小写转化，getline
+  typedef：判断typedef语句是否合法
