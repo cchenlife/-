@@ -8,7 +8,7 @@
   mixcolor：数学问题+动态规划+贪心，颜色混合（A OR B），计算需要购买的颜料种类  
   phonenumber：数学规律，输出字符串对应的最小电话号码  
   plalindrome：数学问题，找变为回文序列的最小转换次数（判断回文序列）  
-  StringToInteger：string转int
+  StringToInteger：string转int  
   maxsubseq：最长公共子序列，个数以及子序列集合
   
   dp/   
