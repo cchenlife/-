@@ -9,11 +9,13 @@
   phonenumber：数学规律，输出字符串对应的最小电话号码  
   plalindrome：数学问题，找变为回文序列的最小转换次数**（判断回文序列）**  
   StringToInteger：**string转int**合法判断，正负号转换  
-  maxsubseq：最长公共子序列，个数以及子序列集合
+  maxsubseq：最长公共子序列，个数以及子序列集合  
+
   
 ### dp/   
   chrous：相邻两学生为止编号差不超过d，k个学生能力值乘积最大  
   jumpstone：石板跳跃  
+  LPartitionEqualSubsetSum：判断数组是否能分为和相等的两部分
     
 ## 2.Wangyi  
   2-points：struct**重载运算符**  
