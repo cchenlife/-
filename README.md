@@ -12,8 +12,8 @@
   maxsubseq：最长公共子序列，个数以及子序列集合
   
 ### dp/   
-    chrous：相邻两学生为止编号差不超过d，k个学生能力值乘积最大  
-    jumpstone：石板跳跃  
+  chrous：相邻两学生为止编号差不超过d，k个学生能力值乘积最大  
+  jumpstone：石板跳跃  
     
 ## 2.Wangyi  
   2-points：struct**重载运算符**  
