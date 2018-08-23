@@ -69,7 +69,7 @@ int main(){
 	return 0;
 }
 
-
+//修改格式，将全局变量变为局部变量
 #include <algorithm>
 #include <iostream>
 #include <string>
@@ -112,6 +112,39 @@ int main(){
 		s = s.substr(start, end - start + 1 - (s[end] == '.'));
 		cout << s << endl;
 		s.clear();
+	}
+	return 0;
+}
+
+//实现大整数乘法
+#include <algorithm>
+#include <iostream>
+#include <string>
+using namespace std;
+
+//数据a,b相乘
+string multiply(string a,string b){
+	string s(a.size() + b.size(), 0);
+	reverse(a.begin(), a.end());
+	reverse(b.begin(), b.end());
+	for (int i = 0; i < a.length(); ++i)
+	for (int j = 0; j < b.length(); ++j){
+		s[i + j] += (a[i] - '0')*(b[j] - '0');
+		s[i + j + 1] += s[i + j] / 10;
+		s[i + j] %= 10;
+	}
+	for (int i = 0; i < s.length(); ++i)s[i] += '0';
+	reverse(s.begin(), s.end());
+	int start = 0;
+	while (s[start] == '0')++start;
+	s = s.substr(start, s.size());
+	return s;
+}
+
+int main(){
+	string a,b;
+	while (cin >> a >> b) {	
+		cout << multiply(a, b) << endl;
 	}
 	return 0;
 }
