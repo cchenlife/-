@@ -9,8 +9,8 @@
   phonenumber：数学规律，输出字符串对应的最小电话号码  
   plalindrome：数学问题，找变为回文序列的最小转换次数**（判断回文序列）**  
   StringToInteger：**string转int**合法判断，正负号转换  
-  maxsubseq：最长公共子序列，个数以及子序列集合  
-  BigNumMuti：大数运算求高精度幂，float型数据求幂
+  maxsubseq：**最长公共子序列**，个数以及子序列集合  
+  BigNumMuti：**大数运算求高精度幂，float型数据求幂**
 
   
 ### dp/   
