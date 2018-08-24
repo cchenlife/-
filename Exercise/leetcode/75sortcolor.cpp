@@ -15,7 +15,7 @@ A rather straight forward solution is a two-pass algorithm using counting sort.
 First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
 Could you come up with a one-pass algorithm using only constant space?
 
-三种颜色排序，思想类似三区间快排（大于当前数（index表示开始），小于当前数（index表示末尾），等于当前数（index表示末尾））
+三种颜色排序，思想类似三向切分快排（大于当前数（index表示开始），小于当前数（index表示末尾），等于当前数（index表示末尾））
 
 */
     void sortColors(vector<int>& nums) {
