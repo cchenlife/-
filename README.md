@@ -12,13 +12,13 @@
   maxsubseq：**最长公共子序列**，个数以及子序列集合  
   BigNumMuti：**大数运算求高精度幂，float型数据求幂**  
   CountPrimes：计算小于n的素数个数  
-  mindis：**最小编辑距离**动态规划
 
   
 ### dp/   
   chrous：相邻两学生为止编号差不超过d，k个学生能力值乘积最大  
   jumpstone：石板跳跃  
-  LPartitionEqualSubsetSum：判断数组是否能分为和相等的两部分
+  LPartitionEqualSubsetSum：判断数组是否能分为和相等的两部分  
+  mindis：**最小编辑距离**  
     
 ## 2.Wangyi  
   2-points：struct**重载运算符**  
