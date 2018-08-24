@@ -11,7 +11,8 @@
   StringToInteger：**string转int**合法判断，正负号转换  
   maxsubseq：**最长公共子序列**，个数以及子序列集合  
   BigNumMuti：**大数运算求高精度幂，float型数据求幂**  
-  CountPrimes：计算小于n的素数个数
+  CountPrimes：计算小于n的素数个数  
+  mindis：**最小编辑距离**动态规划
 
   
 ### dp/   
