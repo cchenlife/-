@@ -1,5 +1,5 @@
 /*
-![IMAGE]https://github.com/cchenlife/problems/blob/master/Toutiao/2-1.png
+![IMAGE](https://github.com/cchenlife/problems/blob/master/Toutiao/2-1.png)
 */
 #include<iostream>
 #include<vector>
