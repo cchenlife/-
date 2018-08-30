@@ -30,3 +30,9 @@
   bag：dfs，有容量的书包能装零食的最大价值  
   charconvert：大小写转化，getline  
   typedef：**字符串分割**判断typedef语句是否合法    
+
+## 4.Toutiao
+  2-1team：划分小组，**并查集，dfs**
+  2-2triword：找规律加动态规划，**只能通过10%**
+  2-3doubleword：判断字符串转换后是否相等，**暴力法超时**
+  2-4air：**周期数列的最长非递减子序列**
