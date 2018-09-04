@@ -43,11 +43,16 @@ struct dir{
 		y = j;
 	}
 };
+//8邻域
 const dir dirs[8] = { dir(1, 1), dir(1, 0), dir(0, 1), dir(-1, -1), dir(-1, 0), dir(0, -1), dir(1, -1), dir(-1, 1) };
+const int dirnum = 8;
+//4邻域
+//const dir dirs[4] = { dir(1, 0), dir(0, 1),  dir(-1, 0), dir(0, -1) };
+//const int dirnum = 4;
 void dfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
 	count += map[i][j];
 	map[i][j] = 0;
-	for (int k = 0; k < 8; k++){
+	for (int k = 0; k < dirnum; k++){
 		int tempx = i + dirs[k].x, tempy = j + dirs[k].y;
 		//cout << "x:" << tempx << " y:" << tempy << endl;
 		if (tempx >= 0 && tempx < m && tempy >= 0 && tempy < n && map[tempx][tempy] != 0){
