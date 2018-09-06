@@ -49,6 +49,8 @@ const int dirnum = 8;
 //4邻域
 //const dir dirs[4] = { dir(1, 0), dir(0, 1),  dir(-1, 0), dir(0, -1) };
 //const int dirnum = 4;
+
+//递归
 void dfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
 	count += map[i][j];
 	map[i][j] = 0;
@@ -62,6 +64,24 @@ void dfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
 			dfs(map, m, n, tempx, tempy, count);
 		}
 	}
+	return;
+}
+//非递归
+void dfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
+	stack<pair<int, int>> dfss;
+	dfss.push(pair<int, int>(i, j));
+	while (!dfss.empty()){
+		pair<int, int> coor = dfss.top();
+		count += map[coor.first][coor.second];
+		map[coor.first][coor.second] = 0;
+		dfss.pop();
+		for (int k = 0; k < dirnum; k++){
+			int tempx = coor.first + dirs[k].x, tempy = coor.second + dirs[k].y;
+			if (tempx >= 0 && tempx < m && tempy >= 0 && tempy < n && map[tempx][tempy] != 0)
+				dfss.push(pair<int, int>(tempx, tempy));
+		}
+	}
+
 	return;
 }
 /*
