@@ -20,7 +20,13 @@
   jumpstone：石板跳跃  
   LPartitionEqualSubsetSum：判断数组是否能分为和相等的两部分  
   mindis：**最小编辑距离**  
-    
+
+### leetcode/   
+  435nooverlapintervals：不重叠区间个数，**贪心算法**，按区间开始时间排序，然后检查与上一个区间是否重叠，若重叠则删除结束时间大的区间  
+  146LRUcache：实现LRU算法，**hash+双向链表**，双向链表用于存储数据结点，hash用于快速搜索  
+  451sortbyfre：按照字母出现次数对字符串排序，**用priority_queue+map实现**  
+  75sortcolor：三种颜色排序，**三向切分快排**，大于当前数（index表示开始），小于当前数（index表示末尾），等于当前数（index表示末尾）  
+  
 ## 2.Wangyi  
   2-points：struct**重载运算符**  
   bagproblem：0-1背包（dfs）  
