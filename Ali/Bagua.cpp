@@ -64,6 +64,26 @@ void dfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
 	}
 	return;
 }
+/*
+void bfs(vector<vector<int>>& map, int m, int n, int i, int j, int& count){
+	queue<pair<int, int>> bfsq;
+	bfsq.push(pair<int, int>(i, j));
+	while (!bfsq.empty()){
+		pair<int, int> coor = bfsq.front();
+		count += map[coor.first][coor.second];
+		map[coor.first][coor.second] = 0;
+		bfsq.pop();
+		for (int k = 0; k < dirnum; k++){
+			int tempx = coor.first + dirs[k].x, tempy = coor.second + dirs[k].y;
+			//cout << "x:" << tempx << " y:" << tempy << endl;
+			if (tempx >= 0 && tempx < m && tempy >= 0 && tempy < n && map[tempx][tempy] != 0){
+				bfsq.push(pair<int, int>(tempx, tempy));
+			}
+		}
+	}
+	return;
+}
+*/
 int main(){
 	int m, n;
 	cin >> m >> n;
