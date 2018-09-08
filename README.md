@@ -12,7 +12,8 @@
   maxsubseq：**最长公共子序列**，个数以及子序列集合  
   BigNumMuti：**大数运算求高精度幂，float型数据求幂**  
   CountPrimes：计算小于n的素数个数，**数学**  
-  bestsubstring：将字符串尽可能分割为多个部分，各子串不包含相同字符**暴力**
+  bestsubstring：将字符串尽可能分割为多个部分，各子串不包含相同字符**暴力**  
+  2pow：计算2的N次幂  
 
   
 ### dp/   
